@@ -1,6 +1,7 @@
 # Aula 07: Funções em Python e Estrutura de Dados - Parte 1
 
-![imagem_01](./pic/1.jpg)
+def soma(a, b):
+    return a + b
 
 As funções em Python são uma das estruturas fundamentais da linguagem, permitindo a reutilização de código, a organização e a modularidade dos programas. Este guia aborda desde a motivação até a aplicação prática de funções, incluindo keywords, nomes, e como utilizá-las efetivamente.
 
