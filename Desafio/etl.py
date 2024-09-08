@@ -36,9 +36,4 @@ def soma_produtos_entregue(lista_produtos_entregues:list[dict])->float:
         valor_total_entregue += float(produto.get("price"))
     return valor_total_entregue
 
-lista_de_produtos = leitor_csv(path_arquivo)
-entregues = filtrar_produtos(lista_de_produtos)
-soma_valores_produtos_entregues = soma_produtos_entregue(entregues)
-print(soma_valores_produtos_entregues)
-
 
