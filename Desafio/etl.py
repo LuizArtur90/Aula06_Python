@@ -35,5 +35,3 @@ def soma_produtos_entregue(lista_produtos_entregues:list[dict])->float:
     for produto in lista_produtos_entregues:
         valor_total_entregue += float(produto.get("price"))
     return valor_total_entregue
-
-
